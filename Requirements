@@ -1,0 +1,33 @@
+URL Shorterner:-
+
+Overivew:-
+
+Requirements:-
+1. URL -> Wrapper{url} -> url
+https://x.com/ [purchased this domain]
+
+Table urls:-
+- id
+- longUrl (mainUrl)
+- hashcode
+- manualUrlName
+- createdAt
+- updatedAt
+- expiryDate
+
+--------------------------------------------------------
+https://housing.com
+
+https://x.com/HOUSING
+
+POST(https://housing.com, 'HOUSING') {
+
+Url url = new Url();
+url.longUrl = https://housing.com;
+url.hashCode = RandomGeneratedHashCode();
+url.manualUrlName = this.name;
+url.createdAt = new Date();
+url.expiry =
+url.save();
+
+GET(https://x.com/HOUSING)]{}
